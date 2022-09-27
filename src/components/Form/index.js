@@ -107,7 +107,7 @@ export default function Form(props) {
             style={styles.input}
             onChangeText={setWeight}
             value={weight}
-            placeholder="Ex. 75.36g"
+            placeholder="Ex. 75.36Kg"
             keyboardType="number-pad"
           />
           <View>

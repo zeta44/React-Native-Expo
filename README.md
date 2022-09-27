@@ -10,7 +10,7 @@ The user has the option to share the results on your socials medias.
 
 ## Preview
 
-![Img](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![image](https://user-images.githubusercontent.com/45097821/192510595-d641dadc-bb6b-4fbd-9b59-6891dc5a4c73.png)
 
 
 ## Libraries

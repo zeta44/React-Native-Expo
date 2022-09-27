@@ -3,8 +3,7 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   listContainer: {
     flex: 1, 
-    height: "50%",
-    marginBottom: 1050  
+    marginBottom: 1100  
   },
   formContainer: {
     width: "100%",

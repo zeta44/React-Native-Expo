@@ -1,5 +1,5 @@
 import React from "react";
-import { View } from "react-native";
+import { ImageBackground, View } from "react-native";
 import styles from "./style";
 import Title from "./src/components/Title/index";
 import Form from "./src/components/Form/index";
@@ -22,16 +22,20 @@ export default function App() {
   if (fontsLoaded) {
     return (
       <View style={styles.container}>
-        <Title
-          title={"BMI Calculator"}
-          fontSize={24}
-          paddingBottom={20}
-          paddingTop={80}
-        />
-        <Form />
-        <View style={styles.main}>
+        <ImageBackground
+          source={require("./assets/images/heart.png")}
+          resizeMode="stretch"
+        >
+          <Title
+            title={"BMI Calculator"}
+            fontSize={24}
+            paddingBottom={20}
+            paddingTop={150}
+          />
+        </ImageBackground>
 
-        </View>
+        <Form />
+        <View style={styles.main}></View>
       </View>
     );
   }

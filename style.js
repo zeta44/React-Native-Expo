@@ -9,8 +9,7 @@ const styles = StyleSheet.create({
   main: {
     height: "100%",
     backgroundColor: "#fafafafa",
-    
-}
+  }
 });
 
 export default styles

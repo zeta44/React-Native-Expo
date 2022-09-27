@@ -23,7 +23,7 @@ export default function Form(props) {
     "Fill in the weight and height."
   );
   const [imc, setImc] = useState(null);
-  const [textButton, setTextButton] = useState("Calcular");
+  const [textButton, setTextButton] = useState("Calculate");
   const [errorMessage, setErrorMessage] = useState(null);
   const [imcList, setImcList] = useState(ligarLista ? list : []);
 
